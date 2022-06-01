@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Calibri;
+    background-image: url("../Images/bgrsession3lab.jpg");
+    background-size: cover;
+}
+.cv {
+    background-color: rgb(245, 242, 220);
+    width: 750px;
+    margin: auto;
+    /*border: 1px solid rgb(245, 242, 220);*/
+}
+.phan-tren{
+    background-color: lightslategrey;
+    height: 165px;
+    width: 750px;
+    margin-top: -31px;
+    text-align: left;
+    line-height: 10px;
+
+}
+.phan-duoi{
+    width: 750px;
+    height: 661px;
+}
+.ben-trai{
+    float: left;
+    background-color: rgba(119, 169, 197, 0.9);
+    width: 143px;
+    height: 721px;
+    /*border: 1px solid rgb(245, 242, 220);*/
+    margin-left: 14px;
+    margin-top: -100px;
+    font-size: 12px;
+    padding: 20px;
+    line-height: 29px;
+}
+.ben-phai{
+    float: right;
+    background-color: rgb(245, 242, 220);
+    width: 519px;
+    height: 630px;
+    font-size: 13px;
+    padding: 14px;
+    line-height: 24px;
+    text-align:justify;
+}
+.phan-tren h4 {
+    font-weight: 100;
+    padding-top: 36px;
+    padding-left: 245px;
+    letter-spacing: 2px;
+}
+.phan-tren h1{
+    font-weight: 500;
+    font-size: 46px;
+    padding-top: 78px;
+    padding-left: 245px;
+    letter-spacing: 2px;
+}
+img{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.phan-duoi h2{
+    font-weight: 600;
+}
+div.ben-phai h3{
+    font-weight: 600;
+}
+
+
+
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Object</title>
+</head>
+<body>
+    <label>
+    <input type="text" onkeyup="inputName(this)" placeholder="Name..." />
+    </label>
+
+    <label>
+    <input type="number" onkeyup="inputAge(this)" placeholder="Age..."/>
+    </label>
+
+    <label>
+    <input type="text" onkeyup="inputAddress(this)" placeholder="Address..."/>
+    </label>
+
+    <label>
+    <select name="Gender" onchange="changeG(this)">
+        <option value="male">male</option>
+        <option value="female">female</option>
+        <option value="other">other</option>
+    </select>
+    </label>
+
+    <button type="button" onclick="submit()">submit</button>
+
+<!--    <script type="text/javascript" src="js/object.js"></script>-->
+<!--    <script type="text/javascript" src="js/listener.js">-->
+
+
+<!--    </script>-->
+    <script type="text/javascript">
+        var sv = {
+            name: "",
+            age: 0,
+            address: "",
+            gender: "",
+
+        }
+        function inputName(e){
+            sv.name = e.value;
+        }
+        function inputAge(e){
+            sv.age = e.value;
+        }
+        function inputAddress(e){
+            sv.address = e.value;
+        }
+        function changeG(e){
+            console.log(e.value);
+        }
+        function submit() {
+            console.log(sv);
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+#a4{
+    color:#4632d5 ;
+    text-decoration: none;
+
+}
+#a4:hover{
+    text-decoration: underline;
+    color: black;
+}
+#a6{
+    text-align: right;
+    font-weight: 400;
+    font-family: Calibri;
+}
+.ht-dat-hang{
+    color:#4632d5 ;
+    text-decoration: none;
+    text-align: right;
+}
+.ht-dat-hang:hover{
+    color: black;
+}
+#a7{
+    color:#4632d5;
+    text-transform: capitalize;
+    font-weight: 100;
+    font-family: Arial;
+}
+h2{
+    font-family: Calibri ;
+}
+#thg{
+    color: #3826b6;
+    font-weight: 200;
+}
+.dk-tt{
+    color:#4632d5 ;
+    text-decoration: none;
+}
+.dk-tt:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.dh-tt{
+    font-weight: 200;
+    color:#4632d5 ;
+    text-decoration: none;
+}
+.dh-tt:hover{
+    background-color: #f3f1ea;
+    color: black;
+}
+.trending-articless{
+    font-weight: 100;
+    color: #4632d5;
+    font-family: Arial;
+}
+.trending-articless:hover{
+    color: #01b3ff;
+}
+#a3{
+    font-weight: 200;
+    text-decoration: none;
+}
+#a3:hover{
+    text-decoration: underline;
+    color: black;
+}
+p{
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+}
+body{
+    line-height: 50px;
+    font-weight: 400;
+}
+li{
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 20px;
+    width: 1580px;
+}
+#a8{
+    font-weight: 100;
+}
+#a9{
+    text-align: right;
+}
+
+
+
+
+
+

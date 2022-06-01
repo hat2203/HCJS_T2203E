@@ -1,0 +1,37 @@
+body{
+    background-color: burlywood;
+    background-image: url("../Images/bg.jpg");
+    background-size: cover;
+}
+h1{
+    color: red;
+}
+p{
+    color: blue ;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: justify;/* left right center */
+    text-transform: capitalize;/* lowercase uppercase none*/
+    text-decoration: none ;/*underline line-through overline*/
+    text-indent: 50px;
+    font-weight: 400;
+    font-family: 'Roboto';
+
+  /*  text-shadow: 0 0 1px red;*/
+    width: 600px;
+    background-color: white;
+
+}
+b{
+    color: white;
+}
+p b{
+    color: red;
+}
+a {
+    color: deeppink;
+    text-decoration: none;
+}
+a:hover{
+    color: yellowgreen;
+}

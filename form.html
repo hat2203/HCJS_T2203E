@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="libs/fontawesome/css/all.css">
+    <link rel="stylesheet" href="CSS/layout.css">
+    <link rel="stylesheet" href="CSS/detail.css">
+    <link rel="stylesheet" href="CSS/animation.css">
+</head>
+<body>
+<header class="section header">
+    <div class="container">
+        <div class="logo">
+            <a class="logo-link" href="#">Generis Framerwork</a>
+            <p>Support HTML5 & responsive design</p>
+        </div>
+        <div class="toplinks">
+            <ul>
+                <li><a href="#">Sample</a></li>
+                <li><a href="#">Layout</a></li>
+                <li><a href="#">Templates</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<nav class="section nav">
+    <div class="container">
+        <ul class="menu">
+            <li><a href="#">Category #1</a></li>
+            <li><a href="#">Category #2</a></li>
+            <li><a href="#">Category #3</a></li>
+            <li><a href="#">Category #4</a></li>
+            <li class="last"><a href="#">Get Genesis Now!</a></li>
+        </ul>
+    </div>
+</nav>
+<section class="section main columns-right">
+    <div class="container">
+        <article class="content">
+            <form method="post" action="#">
+                <div class="form-group">
+                <label>Fullname</label>
+                <input type="text" name="fullname" placeholder="fullname" required/>
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" name="email" placeholder="email" required/>
+                </div>
+                <div class="form-group">
+                    <label>Age</label>
+                    <input type="number" name="age" min="10" max="99" value="11" placeholder="Age..."/>
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" name="pwd" placeholder="Password.." required/>
+                </div>
+                <div class="form-group">
+                    <label>Date of birth</label>
+                    <input type="date" name="birthday" placeholder="Date of birth.."/>
+                </div>
+                <div class="form-group">
+                    <label>Time up</label>
+                    <input type="time" name="timeup" placeholder="Time up.."/>
+                </div>
+                <div class="form-group">
+                    <label>Telephone</label>
+                    <input type="tel" name="telephone" placeholder="Telephone.."/>
+                </div>
+                <div class="form-group">
+                <label>Color</label>
+                <input type="color" name="mycolor" placeholder="My color.."/>
+                </div>
+                <div class="form-group">
+                    <label>Photo</label>
+                    <input type="file" name="myphoto" placeholder="My photo.."/>
+                </div>
+                <div class="form-group">
+                    <label>Gender</label>
+                    <label><input type="radio" name="gender" value="male" /> Male</label>
+                    <label><input type="radio" name="gender" value="female" /> Female</label>
+                    <label><input type="radio" name="gender" value="other" />Other</label>
+                </div>
+                <div class="form-group">
+                    <label>Options</label>
+                    <label><input type="checkbox" name="options[]" value="option1" /> Opt1</label>
+                    <label><input type="checkbox" name="options[]" value="option2" /> Opt2</label>
+                    <label><input type="checkbox" name="options[]" value="option3" /> Opt3</label>
+                </div>
+                <div class="form-group">
+                    <label>City</label>
+                    <select name="city">
+                        <option value="">Select a city...</option>
+                        <optgroup label="VN">
+                            <option value="hn">Hà Nội</option>
+                            <option value="sg">TP HCM</option>
+                            <option value="hn">Hải Phòng</option>
+                        </optgroup>
+                        <optgroup label="US">
+                            <option value="nyc">New York City</option>
+                            <option value="la">LA</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Introduction</label>
+                    <textarea name="introduction" cols="50" rows="10"></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                    <button type="button">Button</button>
+                </div>
+            </form>
+        </article>
+        <aside class="sidebar">
+           <div class="box-animation">
+               Demo box animation
+           </div>
+        </aside>
+    </div>
+</section>
+<footer class="section footer">
+    <div class="container">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-youtube"></i>
+    </div>
+</footer>
+</body>
+</html>

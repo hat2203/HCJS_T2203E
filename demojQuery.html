@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo jQuery</title>
+</head>
+<body>
+    <h1 id="heading1"> Lực lượng hạt nhân Nga tập trận, siêu tên lửa Yars xuất hiện</h1>
+    <p class="paragraph">Dẫn thông báo của Bộ Quốc phòng Nga, hãng thông tấn Interfax cho hay, cuộc tập trận của lực lượng hạt nhân có sự tham gia của 1.000 binh sĩ cùng hơn 100 phương tiện quân sự.</p>
+    <p class="paragraph">Dẫn thông báo của Bộ Quốc phòng Nga, hãng thông tấn Interfax cho hay, cuộc tập trận của lực lượng hạt nhân có sự tham gia của 1.000 binh sĩ cùng hơn 100 phương tiện quân sự.</p>
+
+    <button type="button" onclick="onBox()">On</button>
+    <button type="button" onclick="offBox()">Off</button>
+    <ul class="box">
+        <li>Lau tu xuyen</li>
+         <li>Vit quay bac kinh</li>
+    </ul>
+
+<script type="text/javascript" src="libs/jquery/jquery.3.6.js"></script>
+
+<script type="text/javascript">
+    // khong nhat thiet phai theo tung cap
+    var box = $(".box");
+    function onBox(){
+        //box.show();
+        //box.fadeIn();
+        box.slideDown();
+    }
+    function offBox(){//phan bien mat cang nhanh cang tot nen su dung hide()
+        //box.hide();
+        //box.fadeOut();
+        box.slideUp();
+    }
+
+    var hObj = $("#heading1");
+    hObj.css("color","red");
+    hObj.css({
+        "background-color":"yellowgreen",
+        "margin-top":"5px",
+    });
+    hObj.text("hello world!");
+    hObj.html("<i>Hello world!</i>");
+    hObj.append("<i> T2203E</i>");//chen truoc mot phan tu
+    hObj.prepend("<i>xin chao </i>");//chen sau mot phan tu
+
+    var para = $(".paragraph");
+    para.css("color","pink");
+
+    // call API
+    $.ajax(
+        {
+            url:"https://api.openweathermap.org/data/2.5/weather?q=Hanoi,vietnam&appid=09a71427c59d38d6a34f89b47d75975c&units=metric",
+            method: "GET",
+            success: function (result){
+                console.log(result);// ko can phai JSON.parse
+            },
+            error: function (err){
+                // khi call API loi se di vao day
+            }
+        }
+    );
+</script>
+</body>
+</html>

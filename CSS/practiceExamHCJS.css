@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    font-size: 14px;
+    font-family: "Roboto Thin";
+    font-weight: 400;
+    text-align: left;
+    color: #333333;
+}
+.main{
+    background-color: #4AA272;
+    width: 600px;
+    margin: 0 auto;
+}
+.container {
+    background-color: #ffffff;
+    width: 500px;
+    margin: 0 auto;
+}
+.hang1{
+    width: 100%;
+    height: 80px;
+    display: flex;
+
+}
+.hang2{
+    width: 100%;
+    height: 400px;
+}
+.hang3{
+    width: 100%;
+    height: 80px;
+    background-color: #3064A0;
+}
+.hang4{
+    width: 100%;
+    height: 80px;
+    background-color: #C74A4A;
+}
+.hang1 .lg{
+    color: black;
+    margin-right: 45px;
+}
+.hang1 .rg{
+    float: right;
+    margin-left: 172px;
+}
+.form-group {
+    display: flex;
+
+}
+.form-group button{
+    width: 173px;
+    margin-left: 133px;
+    font-weight: 400;
+    font-size: 25px;
+    background-color: green;
+    color: white;
+}
+.form-group h3 a{
+    font-weight: 200;
+    font-size: 16px;
+}
